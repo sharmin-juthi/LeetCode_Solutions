@@ -7,8 +7,8 @@ public:
         int row = 0;
         int step = 1;
 
-        for(int i=0; i<s.size(); i++){
-            str[row] +=s[i];
+        for(const auto& c: s){
+            str[row] +=c;
 
             if(row == 0)
             step = 1;

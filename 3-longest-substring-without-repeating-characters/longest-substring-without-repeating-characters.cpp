@@ -1,7 +1,7 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        unordered_map<char, int> lastSeen; 
+        map<char, int> lastSeen; 
         int maxLen = 0;
         int left = 0;
 
